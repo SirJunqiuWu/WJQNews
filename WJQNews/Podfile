@@ -1,4 +1,8 @@
 platform:ios,'7.0'
 target 'WJQNews' do
 pod 'AFNetworking','~>3.1.0'
+pod 'Addition','~>0.1.5'
+pod 'MJRefresh','~>3.1.12'
+pod 'SDWebImage','~>4.0.0'
+pod 'Masonry','~>1.0.2'
 end

@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		04634E251E9C811D00D9CB35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E241E9C811D00D9CB35 /* main.m */; };
 		04634E281E9C811D00D9CB35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E271E9C811D00D9CB35 /* AppDelegate.m */; };
-		04634E2B1E9C811D00D9CB35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E2A1E9C811D00D9CB35 /* ViewController.m */; };
 		04634E2E1E9C811D00D9CB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04634E2C1E9C811D00D9CB35 /* Main.storyboard */; };
 		04634E301E9C811D00D9CB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04634E2F1E9C811D00D9CB35 /* Assets.xcassets */; };
 		04634E331E9C811D00D9CB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04634E311E9C811D00D9CB35 /* LaunchScreen.storyboard */; };
 		04634E3E1E9C811D00D9CB35 /* WJQNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E3D1E9C811D00D9CB35 /* WJQNewsTests.m */; };
 		04634E491E9C811D00D9CB35 /* WJQNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E481E9C811D00D9CB35 /* WJQNewsUITests.m */; };
+		04634E631E9DC1CF00D9CB35 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E621E9DC1CF00D9CB35 /* BaseViewController.m */; };
+		04634E661E9DC3AB00D9CB35 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E651E9DC3AB00D9CB35 /* MyNavigationController.m */; };
+		04634E711E9DC67B00D9CB35 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E701E9DC67B00D9CB35 /* HomeViewController.m */; };
+		04634E741E9DC68600D9CB35 /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E731E9DC68600D9CB35 /* HotViewController.m */; };
+		04634E771E9DC6BA00D9CB35 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E761E9DC6BA00D9CB35 /* MyTabBarController.m */; };
+		04634E7A1E9DCFFF00D9CB35 /* UITableViewCell+LayoutHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E791E9DCFFF00D9CB35 /* UITableViewCell+LayoutHeight.m */; };
+		04634E7D1E9DFBBA00D9CB35 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E7C1E9DFBBA00D9CB35 /* NewsCell.m */; };
+		04634E801E9E03DC00D9CB35 /* WJQNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E7F1E9E03DC00D9CB35 /* WJQNews.m */; };
+		04634E831E9E0D0800D9CB35 /* ConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E821E9E0D0800D9CB35 /* ConnectManager.m */; };
 		A35B0949FB95D4D315B7E6F9 /* libPods-WJQNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C0B75EC63FE8C70746EC50 /* libPods-WJQNews.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +48,6 @@
 		04634E241E9C811D00D9CB35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04634E261E9C811D00D9CB35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04634E271E9C811D00D9CB35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04634E291E9C811D00D9CB35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04634E2A1E9C811D00D9CB35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04634E2D1E9C811D00D9CB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04634E2F1E9C811D00D9CB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04634E321E9C811D00D9CB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +59,25 @@
 		04634E481E9C811D00D9CB35 /* WJQNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJQNewsUITests.m; sourceTree = "<group>"; };
 		04634E4A1E9C811D00D9CB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04634E561E9C82D400D9CB35 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04634E611E9DC1CF00D9CB35 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		04634E621E9DC1CF00D9CB35 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		04634E641E9DC3AB00D9CB35 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		04634E651E9DC3AB00D9CB35 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		04634E6F1E9DC67B00D9CB35 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		04634E701E9DC67B00D9CB35 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		04634E721E9DC68600D9CB35 /* HotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotViewController.h; sourceTree = "<group>"; };
+		04634E731E9DC68600D9CB35 /* HotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotViewController.m; sourceTree = "<group>"; };
+		04634E751E9DC6BA00D9CB35 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		04634E761E9DC6BA00D9CB35 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		04634E781E9DCFFF00D9CB35 /* UITableViewCell+LayoutHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LayoutHeight.h"; sourceTree = "<group>"; };
+		04634E791E9DCFFF00D9CB35 /* UITableViewCell+LayoutHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LayoutHeight.m"; sourceTree = "<group>"; };
+		04634E7B1E9DFBBA00D9CB35 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		04634E7C1E9DFBBA00D9CB35 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		04634E7E1E9E03DC00D9CB35 /* WJQNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJQNews.h; sourceTree = "<group>"; };
+		04634E7F1E9E03DC00D9CB35 /* WJQNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJQNews.m; sourceTree = "<group>"; };
+		04634E811E9E0D0800D9CB35 /* ConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectManager.h; sourceTree = "<group>"; };
+		04634E821E9E0D0800D9CB35 /* ConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectManager.m; sourceTree = "<group>"; };
+		04634E841E9E0D3800D9CB35 /* URLConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConfig.h; sourceTree = "<group>"; };
 		65C0B75EC63FE8C70746EC50 /* libPods-WJQNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJQNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5109AF5FEAAFE274B6A765 /* Pods-WJQNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews.release.xcconfig"; sourceTree = "<group>"; };
 		B4FDF8185B1A7F1AED968CD0 /* Pods-WJQNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,10 +134,10 @@
 		04634E221E9C811D00D9CB35 /* WJQNews */ = {
 			isa = PBXGroup;
 			children = (
+				04634E5B1E9DBF9000D9CB35 /* Resource */,
+				04634E571E9DBF9000D9CB35 /* Code */,
 				04634E261E9C811D00D9CB35 /* AppDelegate.h */,
 				04634E271E9C811D00D9CB35 /* AppDelegate.m */,
-				04634E291E9C811D00D9CB35 /* ViewController.h */,
-				04634E2A1E9C811D00D9CB35 /* ViewController.m */,
 				04634E2C1E9C811D00D9CB35 /* Main.storyboard */,
 				04634E2F1E9C811D00D9CB35 /* Assets.xcassets */,
 				04634E311E9C811D00D9CB35 /* LaunchScreen.storyboard */,
@@ -147,6 +172,167 @@
 				04634E4A1E9C811D00D9CB35 /* Info.plist */,
 			);
 			path = WJQNewsUITests;
+			sourceTree = "<group>";
+		};
+		04634E571E9DBF9000D9CB35 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				04634E591E9DBF9000D9CB35 /* Function */,
+				04634E581E9DBF9000D9CB35 /* Class */,
+				04634E5A1E9DBF9000D9CB35 /* Macro */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		04634E581E9DBF9000D9CB35 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				04634E5C1E9DC02B00D9CB35 /* BaseViewController */,
+				04634E5D1E9DC02B00D9CB35 /* MyNavigationCtroller */,
+				04634E5E1E9DC02B00D9CB35 /* MyTabbarController */,
+				04634E5F1E9DC02B00D9CB35 /* Networking */,
+				04634E601E9DC02B00D9CB35 /* UITableViewCell+LayoutHeight */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		04634E591E9DBF9000D9CB35 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				04634E671E9DC61800D9CB35 /* Home */,
+				04634E6B1E9DC61800D9CB35 /* Hot */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		04634E5A1E9DBF9000D9CB35 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				04634E841E9E0D3800D9CB35 /* URLConfig.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		04634E5B1E9DBF9000D9CB35 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04634E5C1E9DC02B00D9CB35 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04634E611E9DC1CF00D9CB35 /* BaseViewController.h */,
+				04634E621E9DC1CF00D9CB35 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		04634E5D1E9DC02B00D9CB35 /* MyNavigationCtroller */ = {
+			isa = PBXGroup;
+			children = (
+				04634E641E9DC3AB00D9CB35 /* MyNavigationController.h */,
+				04634E651E9DC3AB00D9CB35 /* MyNavigationController.m */,
+			);
+			path = MyNavigationCtroller;
+			sourceTree = "<group>";
+		};
+		04634E5E1E9DC02B00D9CB35 /* MyTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				04634E751E9DC6BA00D9CB35 /* MyTabBarController.h */,
+				04634E761E9DC6BA00D9CB35 /* MyTabBarController.m */,
+			);
+			path = MyTabbarController;
+			sourceTree = "<group>";
+		};
+		04634E5F1E9DC02B00D9CB35 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				04634E811E9E0D0800D9CB35 /* ConnectManager.h */,
+				04634E821E9E0D0800D9CB35 /* ConnectManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		04634E601E9DC02B00D9CB35 /* UITableViewCell+LayoutHeight */ = {
+			isa = PBXGroup;
+			children = (
+				04634E781E9DCFFF00D9CB35 /* UITableViewCell+LayoutHeight.h */,
+				04634E791E9DCFFF00D9CB35 /* UITableViewCell+LayoutHeight.m */,
+			);
+			path = "UITableViewCell+LayoutHeight";
+			sourceTree = "<group>";
+		};
+		04634E671E9DC61800D9CB35 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04634E681E9DC61800D9CB35 /* Controller */,
+				04634E691E9DC61800D9CB35 /* Model */,
+				04634E6A1E9DC61800D9CB35 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04634E681E9DC61800D9CB35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04634E6F1E9DC67B00D9CB35 /* HomeViewController.h */,
+				04634E701E9DC67B00D9CB35 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04634E691E9DC61800D9CB35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04634E7E1E9E03DC00D9CB35 /* WJQNews.h */,
+				04634E7F1E9E03DC00D9CB35 /* WJQNews.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04634E6A1E9DC61800D9CB35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04634E7B1E9DFBBA00D9CB35 /* NewsCell.h */,
+				04634E7C1E9DFBBA00D9CB35 /* NewsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04634E6B1E9DC61800D9CB35 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				04634E6C1E9DC61800D9CB35 /* Controller */,
+				04634E6D1E9DC61800D9CB35 /* Model */,
+				04634E6E1E9DC61800D9CB35 /* View */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		04634E6C1E9DC61800D9CB35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04634E721E9DC68600D9CB35 /* HotViewController.h */,
+				04634E731E9DC68600D9CB35 /* HotViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04634E6D1E9DC61800D9CB35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04634E6E1E9DC61800D9CB35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		12946AF78C958011A399DBE4 /* Frameworks */ = {
@@ -353,8 +539,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04634E2B1E9C811D00D9CB35 /* ViewController.m in Sources */,
+				04634E741E9DC68600D9CB35 /* HotViewController.m in Sources */,
+				04634E831E9E0D0800D9CB35 /* ConnectManager.m in Sources */,
 				04634E281E9C811D00D9CB35 /* AppDelegate.m in Sources */,
+				04634E7D1E9DFBBA00D9CB35 /* NewsCell.m in Sources */,
+				04634E661E9DC3AB00D9CB35 /* MyNavigationController.m in Sources */,
+				04634E631E9DC1CF00D9CB35 /* BaseViewController.m in Sources */,
+				04634E801E9E03DC00D9CB35 /* WJQNews.m in Sources */,
+				04634E7A1E9DCFFF00D9CB35 /* UITableViewCell+LayoutHeight.m in Sources */,
+				04634E711E9DC67B00D9CB35 /* HomeViewController.m in Sources */,
+				04634E771E9DC6BA00D9CB35 /* MyTabBarController.m in Sources */,
 				04634E251E9C811D00D9CB35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
