@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04634E251E9C811D00D9CB35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E241E9C811D00D9CB35 /* main.m */; };
+		04634E281E9C811D00D9CB35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E271E9C811D00D9CB35 /* AppDelegate.m */; };
+		04634E2B1E9C811D00D9CB35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E2A1E9C811D00D9CB35 /* ViewController.m */; };
+		04634E2E1E9C811D00D9CB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04634E2C1E9C811D00D9CB35 /* Main.storyboard */; };
+		04634E301E9C811D00D9CB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04634E2F1E9C811D00D9CB35 /* Assets.xcassets */; };
+		04634E331E9C811D00D9CB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04634E311E9C811D00D9CB35 /* LaunchScreen.storyboard */; };
+		04634E3E1E9C811D00D9CB35 /* WJQNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E3D1E9C811D00D9CB35 /* WJQNewsTests.m */; };
+		04634E491E9C811D00D9CB35 /* WJQNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E481E9C811D00D9CB35 /* WJQNewsUITests.m */; };
+		A35B0949FB95D4D315B7E6F9 /* libPods-WJQNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C0B75EC63FE8C70746EC50 /* libPods-WJQNews.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04634E3A1E9C811D00D9CB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04634E181E9C811D00D9CB35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04634E1F1E9C811D00D9CB35;
+			remoteInfo = WJQNews;
+		};
+		04634E451E9C811D00D9CB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04634E181E9C811D00D9CB35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04634E1F1E9C811D00D9CB35;
+			remoteInfo = WJQNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04634E201E9C811D00D9CB35 /* WJQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04634E241E9C811D00D9CB35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04634E261E9C811D00D9CB35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04634E271E9C811D00D9CB35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04634E291E9C811D00D9CB35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04634E2A1E9C811D00D9CB35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04634E2D1E9C811D00D9CB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04634E2F1E9C811D00D9CB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04634E321E9C811D00D9CB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04634E341E9C811D00D9CB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04634E391E9C811D00D9CB35 /* WJQNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJQNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04634E3D1E9C811D00D9CB35 /* WJQNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJQNewsTests.m; sourceTree = "<group>"; };
+		04634E3F1E9C811D00D9CB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04634E441E9C811D00D9CB35 /* WJQNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJQNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04634E481E9C811D00D9CB35 /* WJQNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJQNewsUITests.m; sourceTree = "<group>"; };
+		04634E4A1E9C811D00D9CB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04634E561E9C82D400D9CB35 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		65C0B75EC63FE8C70746EC50 /* libPods-WJQNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJQNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5109AF5FEAAFE274B6A765 /* Pods-WJQNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews.release.xcconfig"; sourceTree = "<group>"; };
+		B4FDF8185B1A7F1AED968CD0 /* Pods-WJQNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04634E1D1E9C811D00D9CB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35B0949FB95D4D315B7E6F9 /* libPods-WJQNews.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04634E361E9C811D00D9CB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04634E411E9C811D00D9CB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04634E171E9C811D00D9CB35 = {
+			isa = PBXGroup;
+			children = (
+				04634E221E9C811D00D9CB35 /* WJQNews */,
+				04634E3C1E9C811D00D9CB35 /* WJQNewsTests */,
+				04634E471E9C811D00D9CB35 /* WJQNewsUITests */,
+				04634E211E9C811D00D9CB35 /* Products */,
+				A0B03F97C72CF0300895FBD3 /* Pods */,
+				12946AF78C958011A399DBE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04634E211E9C811D00D9CB35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04634E201E9C811D00D9CB35 /* WJQNews.app */,
+				04634E391E9C811D00D9CB35 /* WJQNewsTests.xctest */,
+				04634E441E9C811D00D9CB35 /* WJQNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04634E221E9C811D00D9CB35 /* WJQNews */ = {
+			isa = PBXGroup;
+			children = (
+				04634E261E9C811D00D9CB35 /* AppDelegate.h */,
+				04634E271E9C811D00D9CB35 /* AppDelegate.m */,
+				04634E291E9C811D00D9CB35 /* ViewController.h */,
+				04634E2A1E9C811D00D9CB35 /* ViewController.m */,
+				04634E2C1E9C811D00D9CB35 /* Main.storyboard */,
+				04634E2F1E9C811D00D9CB35 /* Assets.xcassets */,
+				04634E311E9C811D00D9CB35 /* LaunchScreen.storyboard */,
+				04634E341E9C811D00D9CB35 /* Info.plist */,
+				04634E231E9C811D00D9CB35 /* Supporting Files */,
+			);
+			path = WJQNews;
+			sourceTree = "<group>";
+		};
+		04634E231E9C811D00D9CB35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04634E241E9C811D00D9CB35 /* main.m */,
+				04634E561E9C82D400D9CB35 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04634E3C1E9C811D00D9CB35 /* WJQNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04634E3D1E9C811D00D9CB35 /* WJQNewsTests.m */,
+				04634E3F1E9C811D00D9CB35 /* Info.plist */,
+			);
+			path = WJQNewsTests;
+			sourceTree = "<group>";
+		};
+		04634E471E9C811D00D9CB35 /* WJQNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04634E481E9C811D00D9CB35 /* WJQNewsUITests.m */,
+				04634E4A1E9C811D00D9CB35 /* Info.plist */,
+			);
+			path = WJQNewsUITests;
+			sourceTree = "<group>";
+		};
+		12946AF78C958011A399DBE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C0B75EC63FE8C70746EC50 /* libPods-WJQNews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0B03F97C72CF0300895FBD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4FDF8185B1A7F1AED968CD0 /* Pods-WJQNews.debug.xcconfig */,
+				7A5109AF5FEAAFE274B6A765 /* Pods-WJQNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04634E1F1E9C811D00D9CB35 /* WJQNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04634E4D1E9C811D00D9CB35 /* Build configuration list for PBXNativeTarget "WJQNews" */;
+			buildPhases = (
+				A0DA6CF518F650B2754F2544 /* [CP] Check Pods Manifest.lock */,
+				04634E1C1E9C811D00D9CB35 /* Sources */,
+				04634E1D1E9C811D00D9CB35 /* Frameworks */,
+				04634E1E1E9C811D00D9CB35 /* Resources */,
+				36CDFD29335E28C2292263BB /* [CP] Embed Pods Frameworks */,
+				B8BEC5778AA9908FD64F9EA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJQNews;
+			productName = WJQNews;
+			productReference = 04634E201E9C811D00D9CB35 /* WJQNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04634E381E9C811D00D9CB35 /* WJQNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04634E501E9C811D00D9CB35 /* Build configuration list for PBXNativeTarget "WJQNewsTests" */;
+			buildPhases = (
+				04634E351E9C811D00D9CB35 /* Sources */,
+				04634E361E9C811D00D9CB35 /* Frameworks */,
+				04634E371E9C811D00D9CB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04634E3B1E9C811D00D9CB35 /* PBXTargetDependency */,
+			);
+			name = WJQNewsTests;
+			productName = WJQNewsTests;
+			productReference = 04634E391E9C811D00D9CB35 /* WJQNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04634E431E9C811D00D9CB35 /* WJQNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04634E531E9C811D00D9CB35 /* Build configuration list for PBXNativeTarget "WJQNewsUITests" */;
+			buildPhases = (
+				04634E401E9C811D00D9CB35 /* Sources */,
+				04634E411E9C811D00D9CB35 /* Frameworks */,
+				04634E421E9C811D00D9CB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04634E461E9C811D00D9CB35 /* PBXTargetDependency */,
+			);
+			name = WJQNewsUITests;
+			productName = WJQNewsUITests;
+			productReference = 04634E441E9C811D00D9CB35 /* WJQNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04634E181E9C811D00D9CB35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JackWu;
+				TargetAttributes = {
+					04634E1F1E9C811D00D9CB35 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = PAG7WP2FU6;
+						ProvisioningStyle = Automatic;
+					};
+					04634E381E9C811D00D9CB35 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = PAG7WP2FU6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04634E1F1E9C811D00D9CB35;
+					};
+					04634E431E9C811D00D9CB35 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = PAG7WP2FU6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04634E1F1E9C811D00D9CB35;
+					};
+				};
+			};
+			buildConfigurationList = 04634E1B1E9C811D00D9CB35 /* Build configuration list for PBXProject "WJQNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04634E171E9C811D00D9CB35;
+			productRefGroup = 04634E211E9C811D00D9CB35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04634E1F1E9C811D00D9CB35 /* WJQNews */,
+				04634E381E9C811D00D9CB35 /* WJQNewsTests */,
+				04634E431E9C811D00D9CB35 /* WJQNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04634E1E1E9C811D00D9CB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04634E331E9C811D00D9CB35 /* LaunchScreen.storyboard in Resources */,
+				04634E301E9C811D00D9CB35 /* Assets.xcassets in Resources */,
+				04634E2E1E9C811D00D9CB35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04634E371E9C811D00D9CB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04634E421E9C811D00D9CB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36CDFD29335E28C2292263BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DA6CF518F650B2754F2544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BEC5778AA9908FD64F9EA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04634E1C1E9C811D00D9CB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04634E2B1E9C811D00D9CB35 /* ViewController.m in Sources */,
+				04634E281E9C811D00D9CB35 /* AppDelegate.m in Sources */,
+				04634E251E9C811D00D9CB35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04634E351E9C811D00D9CB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04634E3E1E9C811D00D9CB35 /* WJQNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04634E401E9C811D00D9CB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04634E491E9C811D00D9CB35 /* WJQNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04634E3B1E9C811D00D9CB35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04634E1F1E9C811D00D9CB35 /* WJQNews */;
+			targetProxy = 04634E3A1E9C811D00D9CB35 /* PBXContainerItemProxy */;
+		};
+		04634E461E9C811D00D9CB35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04634E1F1E9C811D00D9CB35 /* WJQNews */;
+			targetProxy = 04634E451E9C811D00D9CB35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04634E2C1E9C811D00D9CB35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04634E2D1E9C811D00D9CB35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04634E311E9C811D00D9CB35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04634E321E9C811D00D9CB35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04634E4B1E9C811D00D9CB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04634E4C1E9C811D00D9CB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04634E4E1E9C811D00D9CB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FDF8185B1A7F1AED968CD0 /* Pods-WJQNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAG7WP2FU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WJQNews/PrefixHeader.pch;
+				INFOPLIST_FILE = WJQNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RongZhu.WJQNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04634E4F1E9C811D00D9CB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5109AF5FEAAFE274B6A765 /* Pods-WJQNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAG7WP2FU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WJQNews/PrefixHeader.pch;
+				INFOPLIST_FILE = WJQNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RongZhu.WJQNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04634E511E9C811D00D9CB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PAG7WP2FU6;
+				INFOPLIST_FILE = WJQNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RongZhu.WJQNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJQNews.app/WJQNews";
+			};
+			name = Debug;
+		};
+		04634E521E9C811D00D9CB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PAG7WP2FU6;
+				INFOPLIST_FILE = WJQNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RongZhu.WJQNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJQNews.app/WJQNews";
+			};
+			name = Release;
+		};
+		04634E541E9C811D00D9CB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PAG7WP2FU6;
+				INFOPLIST_FILE = WJQNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RongZhu.WJQNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJQNews;
+			};
+			name = Debug;
+		};
+		04634E551E9C811D00D9CB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PAG7WP2FU6;
+				INFOPLIST_FILE = WJQNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RongZhu.WJQNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJQNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04634E1B1E9C811D00D9CB35 /* Build configuration list for PBXProject "WJQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04634E4B1E9C811D00D9CB35 /* Debug */,
+				04634E4C1E9C811D00D9CB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04634E4D1E9C811D00D9CB35 /* Build configuration list for PBXNativeTarget "WJQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04634E4E1E9C811D00D9CB35 /* Debug */,
+				04634E4F1E9C811D00D9CB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04634E501E9C811D00D9CB35 /* Build configuration list for PBXNativeTarget "WJQNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04634E511E9C811D00D9CB35 /* Debug */,
+				04634E521E9C811D00D9CB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04634E531E9C811D00D9CB35 /* Build configuration list for PBXNativeTarget "WJQNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04634E541E9C811D00D9CB35 /* Debug */,
+				04634E551E9C811D00D9CB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04634E181E9C811D00D9CB35 /* Project object */;
+}
