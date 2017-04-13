@@ -40,7 +40,7 @@
 #pragma mark - 创建UI
 
 - (void)setupUI {
-    infoTable = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    infoTable = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
     infoTable.backgroundColor = [UIColor clearColor];
     infoTable.dataSource = self;
     infoTable.delegate = self;
@@ -135,11 +135,9 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-
-}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    //因为先走了创建cell的代理方法，所以通过此方法能够获取到视图布局后的cell高度
     NewsCell *cell = (NewsCell *)[self tableView:tableView cellForRowAtIndexPath:indexPath];
     //cell.contentView上添加的最后一个视图距离底部的距离为8
     return [cell getLayoutCellHeightWithFlex:8];

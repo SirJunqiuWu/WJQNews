@@ -23,6 +23,8 @@
 		04634E7D1E9DFBBA00D9CB35 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E7C1E9DFBBA00D9CB35 /* NewsCell.m */; };
 		04634E801E9E03DC00D9CB35 /* WJQNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E7F1E9E03DC00D9CB35 /* WJQNews.m */; };
 		04634E831E9E0D0800D9CB35 /* ConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E821E9E0D0800D9CB35 /* ConnectManager.m */; };
+		04634E871E9F6AA000D9CB35 /* WJQHotNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E861E9F6AA000D9CB35 /* WJQHotNews.m */; };
+		04634E8A1E9F6AB900D9CB35 /* HotNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634E891E9F6AB900D9CB35 /* HotNewsCell.m */; };
 		A35B0949FB95D4D315B7E6F9 /* libPods-WJQNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C0B75EC63FE8C70746EC50 /* libPods-WJQNews.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +80,10 @@
 		04634E811E9E0D0800D9CB35 /* ConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectManager.h; sourceTree = "<group>"; };
 		04634E821E9E0D0800D9CB35 /* ConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectManager.m; sourceTree = "<group>"; };
 		04634E841E9E0D3800D9CB35 /* URLConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConfig.h; sourceTree = "<group>"; };
+		04634E851E9F6AA000D9CB35 /* WJQHotNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJQHotNews.h; sourceTree = "<group>"; };
+		04634E861E9F6AA000D9CB35 /* WJQHotNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJQHotNews.m; sourceTree = "<group>"; };
+		04634E881E9F6AB900D9CB35 /* HotNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotNewsCell.h; sourceTree = "<group>"; };
+		04634E891E9F6AB900D9CB35 /* HotNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotNewsCell.m; sourceTree = "<group>"; };
 		65C0B75EC63FE8C70746EC50 /* libPods-WJQNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJQNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5109AF5FEAAFE274B6A765 /* Pods-WJQNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews.release.xcconfig"; sourceTree = "<group>"; };
 		B4FDF8185B1A7F1AED968CD0 /* Pods-WJQNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJQNews/Pods-WJQNews.debug.xcconfig"; sourceTree = "<group>"; };
@@ -324,6 +330,8 @@
 		04634E6D1E9DC61800D9CB35 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04634E851E9F6AA000D9CB35 /* WJQHotNews.h */,
+				04634E861E9F6AA000D9CB35 /* WJQHotNews.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -331,6 +339,8 @@
 		04634E6E1E9DC61800D9CB35 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04634E881E9F6AB900D9CB35 /* HotNewsCell.h */,
+				04634E891E9F6AB900D9CB35 /* HotNewsCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -540,9 +550,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04634E741E9DC68600D9CB35 /* HotViewController.m in Sources */,
+				04634E871E9F6AA000D9CB35 /* WJQHotNews.m in Sources */,
 				04634E831E9E0D0800D9CB35 /* ConnectManager.m in Sources */,
 				04634E281E9C811D00D9CB35 /* AppDelegate.m in Sources */,
 				04634E7D1E9DFBBA00D9CB35 /* NewsCell.m in Sources */,
+				04634E8A1E9F6AB900D9CB35 /* HotNewsCell.m in Sources */,
 				04634E661E9DC3AB00D9CB35 /* MyNavigationController.m in Sources */,
 				04634E631E9DC1CF00D9CB35 /* BaseViewController.m in Sources */,
 				04634E801E9E03DC00D9CB35 /* WJQNews.m in Sources */,
