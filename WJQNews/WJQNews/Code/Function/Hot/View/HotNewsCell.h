@@ -13,4 +13,7 @@
 
 @property(nonatomic,strong)NSString *title;
 @property(nonatomic,strong)UIView  *gapline;
+
++(CGFloat)getCellHeightWithTitle:(NSString *)title;
+
 @end

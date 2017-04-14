@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044508111EA05E7B00AD56E3 /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
 		04634E201E9C811D00D9CB35 /* WJQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04634E241E9C811D00D9CB35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04634E261E9C811D00D9CB35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -215,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				04634E841E9E0D3800D9CB35 /* URLConfig.h */,
+				044508111EA05E7B00AD56E3 /* AppConfig.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";

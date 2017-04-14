@@ -35,13 +35,8 @@
     titleLbl.textColor = [UIColor blackColor];
     titleLbl.font = [UIFont systemFontOfSize:15];
     titleLbl.numberOfLines = 0;
+    titleLbl.lineBreakMode = NSLineBreakByCharWrapping;
     [self.contentView addSubview:titleLbl];
-    
-    [titleLbl mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.contentView.mas_top).offset(8);
-        make.left.equalTo(self.contentView.mas_left).offset(10);
-        make.right.equalTo(self.contentView.mas_right).offset(-10);
-    }];
 }
 
 #pragma mark - Setter
@@ -49,22 +44,32 @@
 - (void)setTitle:(NSString *)title {
     _title = title;
     titleLbl.text = _title;
-    [titleLbl mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.contentView.mas_top).offset(8);
-        make.left.equalTo(self.contentView.mas_left).offset(10);
-        make.right.equalTo(self.contentView.mas_right).offset(-10);
-    }];
+    
+    CGSize titleSize = [title getStringSize:[UIFont systemFontOfSize:15] maxWidth:self.contentView.width-20];
+    if (titleSize.height <=15)
+    {
+        titleSize.height = 15;
+    }
+    titleLbl.frame = CGRectMake(10, 8, klScreenWidth-20, titleSize.height);
+}
+
++(CGFloat)getCellHeightWithTitle:(NSString *)title {
+    CGFloat totalH = 0;
+    CGSize titleSize = [title getStringSize:[UIFont systemFontOfSize:15] maxWidth:klScreenWidth-20];
+    if (titleSize.height <=15)
+    {
+        titleSize.height = 15;
+    }
+    totalH=8.0+titleSize.height+8.0;
+    return totalH;
 }
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
 @end
